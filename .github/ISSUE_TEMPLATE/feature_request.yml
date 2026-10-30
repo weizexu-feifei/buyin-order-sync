@@ -1,0 +1,12 @@
+name: 功能建议
+description: 说明具体使用场景、收益与最小方案
+body:
+  - type: textarea
+    attributes:
+      label: 问题与预期行为
+      description: 不包含真实机构、人员、订单或Base地址；金额口径变化请说明业务含义
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 最小方案与可提供的虚构测试

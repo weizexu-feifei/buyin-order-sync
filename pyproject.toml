@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buyin-order-sync"
+version = "0.1.0"
+description = "Auditable local order summaries from Buyin Excel exports to Feishu Base"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["openpyxl>=3.1,<4"]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Operating System :: Microsoft :: Windows"]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.45,<2"]
+build = ["pyinstaller>=6,<7"]
+
+[project.scripts]
+buyin-order-sync = "buyin_order_sync.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,21 @@
+name: Bug反馈（仅脱敏信息）
+description: 使用虚构订单复现问题，不上传真实配置或业务数据
+body:
+  - type: checkboxes
+    attributes:
+      label: 隐私检查
+      options:
+        - label: 我没有提交真实机构、人员、账号、订单、日志、截图、Cookie或Base链接
+          required: true
+  - type: textarea
+    attributes:
+      label: 版本和环境
+      description: 程序版本、系统、Python和lark-cli版本；不要填私人路径
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 虚构复现步骤与预期/实际结果
+      description: 使用examples样例或从头构造的虚构订单；复制日志前重新改写成无身份信息的文字
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+{
+  "state_dir": ".local",
+  "institution": "",
+  "daily_start": null,
+  "lookback_days": 30,
+  "max_rows": 200000,
+  "schedule": ["09:00", "18:00"],
+  "accounts": [
+    {"source_id": "10000001", "name": "示例账号A", "team": "示例团队", "operator": "示例运营"},
+    {"source_id": "10000002", "name": "示例账号B", "team": "示例团队", "operator": "示例运营"},
+    {"source_id": "10000003", "name": "示例账号C", "team": "示例团队", "operator": "示例运营"}
+  ],
+  "feishu": {"base_token": "", "table_id": ""}
+}

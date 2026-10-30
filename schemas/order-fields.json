@@ -1,0 +1,156 @@
+[
+  {
+    "name": "同步键",
+    "type": "text"
+  },
+  {
+    "name": "账号ID",
+    "type": "text"
+  },
+  {
+    "name": "账号名称",
+    "type": "text"
+  },
+  {
+    "name": "所属团队",
+    "type": "text"
+  },
+  {
+    "name": "运营人员",
+    "type": "text"
+  },
+  {
+    "name": "商品编号",
+    "type": "text"
+  },
+  {
+    "name": "商品标题",
+    "type": "text"
+  },
+  {
+    "name": "金额口径",
+    "type": "text"
+  },
+  {
+    "name": "数据来源文件",
+    "type": "text"
+  },
+  {
+    "name": "出单日期",
+    "type": "datetime",
+    "style": {
+      "format": "yyyy-MM-dd"
+    }
+  },
+  {
+    "name": "数据截至",
+    "type": "datetime",
+    "style": {
+      "format": "yyyy-MM-dd HH:mm"
+    }
+  },
+  {
+    "name": "实际营业额",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "平台补贴",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "成交金额",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "支付金额",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "百应原退款金额",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "退款平台补贴",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "退款金额",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "预估佣金",
+    "type": "number",
+    "style": {
+      "type": "currency",
+      "precision": 2,
+      "currency_code": "CNY"
+    }
+  },
+  {
+    "name": "实际订单数",
+    "type": "number",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  },
+  {
+    "name": "成交件数",
+    "type": "number",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  },
+  {
+    "name": "成交订单数",
+    "type": "number",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  },
+  {
+    "name": "退款订单数",
+    "type": "number",
+    "style": {
+      "type": "plain",
+      "precision": 0
+    }
+  }
+]
